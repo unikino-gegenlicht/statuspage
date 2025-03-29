@@ -174,8 +174,8 @@ params:
   #
   # dateFormat Default: "January 2, 2006 at 3:04 PM"
   # shortDateFormat Default: "15:04 — Jan 2"
-  dateFormat: January 2, 2006 at 3:04 PM UTC
-  shortDateFormat: 15:04 UTC — Jan 2
+  dateFormat: ":date_full – :time_medium"
+  shortDateFormat: ":time_short – :date_short"
 
   # Should relative time (x min ago) be used?
   #
@@ -225,7 +225,7 @@ params:
   #
   # Default: `true`
   # BOOLEAN; `true`, `false`
-  useLargeHeaderDesign: false
+  useLargeHeaderDesign: true
 
   # Should incident history be separated
   # like in an archive view?
@@ -268,7 +268,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  useLogo: false
+  useLogo: true
 
   # Where is the logo located, if one is
   # present at all?
@@ -325,7 +325,7 @@ params:
   # disrupted: "#cc4400"
   # down: "#e60000"
   # notice: "#24478f"
-  brand: "#ffdd00"
+  brand: "#0a0c0f"
   ok: "#008000"
   disrupted: "#cc4400"
   down: "#e60000"
