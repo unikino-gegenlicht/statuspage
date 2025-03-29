@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Unikino GEGENLICHT Status
+title: Servicestatus – Unikino GEGENLICHT
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -143,13 +143,13 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: Öffentlich
-      description: Unsere öffentlichen Dienste
-      closed: false
-    - name: Interne
-      description: Unseren internen Dienste
     - name: Uncategorized
       untitled: true
+    - name: Social Media
+      untitled: true
+    - name: Intern
+      closed: true
+    
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -160,8 +160,7 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     - name: Website
-      category: Öffentlich
-      description: Unsere Website mit allen Programminfos
+      category: Uncategorized
       link: https://gegenlicht.net
       histogram: true
 
@@ -174,8 +173,8 @@ params:
   #
   # dateFormat Default: "January 2, 2006 at 3:04 PM"
   # shortDateFormat Default: "15:04 — Jan 2"
-  dateFormat: ":date_full – :time_medium"
-  shortDateFormat: ":time_short – :date_short"
+  dateFormat: "02. January 2006 um 15:04 Uhr"
+  shortDateFormat: "02.01.2006 um 15:04"
 
   # Should relative time (x min ago) be used?
   #
@@ -284,7 +283,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  description: Wir kontrollieren den Status unserer Dienste automatisiert. Sollte es zu Ausfällen kommen, werden hier Informationen bereitgestellt
 
   # Tabs on homepage
   # Uncomment to enable.
@@ -325,7 +324,7 @@ params:
   # disrupted: "#cc4400"
   # down: "#e60000"
   # notice: "#24478f"
-  brand: "#0a0c0f"
+  brand: "#000000"
   ok: "#008000"
   disrupted: "#cc4400"
   down: "#e60000"
