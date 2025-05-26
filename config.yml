@@ -145,11 +145,7 @@ params:
   categories:
     - name: Uncategorized
       untitled: true
-    - name: Social Media
-      untitled: true
-    - name: Intern
-      closed: true
-    
+    - name: E-Mail Services
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -159,9 +155,20 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Website
+    - name: website
+      displayName: Website
       category: Uncategorized
       link: https://gegenlicht.net
+      histogram: true
+
+    - name: website-analytics
+      displayName: Plausible Analytics
+      category: Uncategorized
+      histogram: true
+
+    - name: email-groupware
+      displayName: E-Mail Groupware
+      category: Uncategorized
       histogram: true
 
   # What date format to use?
