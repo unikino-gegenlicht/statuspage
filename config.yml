@@ -104,7 +104,7 @@ params:
   notice: "#24478f"
   alwaysKeepBrandColor: true
   headerTextColor: white
-  enableUptimeHistogram: true
+  enableUptimeHistogram: false
   googleAnalytics: UA-00000000-1
 
 theme: cstate
