@@ -1,7 +1,7 @@
 ---
 title: Configuration of Statuspage
 date: 2025-03-29 10:26:05
-resolved: false
+resolved: true
 informational: true
 section: issue
 ---
