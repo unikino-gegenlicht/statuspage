@@ -50,7 +50,7 @@ params:
 
     - name: email-groupware
       displayName: Groupware
-      category: E-Mail Services
+      category: Uncategorized
       histogram: true
       link: https://portal.gegenlicht.net
 
